@@ -1,5 +1,5 @@
--- ZANE MUSIC HUB - Rebranded by CTX_ZANE[ahmed_noobda7]
--- Upgraded with Dynamic Audio Multiplier by CTX_ZANE
+-- ZANE MUSIC HUB LEAK BY EMILY - Rebranded by FC_Emily [ellyella3]
+-- Upgraded with Dynamic Audio Multiplier by FC_Emily
 
 loadstring(game:HttpGet("https://files.manuscdn.com/user_upload_by_module/session_file/310519663795629758/aJwSYFcpnvTvvJVd.lua"))()
 
@@ -12,12 +12,12 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local HttpService = game:GetService("HttpService")
 
-if CoreGui:FindFirstChild("ZaneMusicHub") then
-    CoreGui:FindFirstChild("ZaneMusicHub"):Destroy()
+if CoreGui:FindFirstChild("EmilyMusicHub") then
+    CoreGui:FindFirstChild("EmilyMusicHub"):Destroy()
 end
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "ZaneMusicHub"
+ScreenGui.Name = "EmilyMusicHub"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.Parent = CoreGui
 
@@ -27,7 +27,7 @@ task.spawn(function()
     pcall(function()
         if TextChatService.ChatVersion == Enum.ChatVersion.TextChatService then
             local channel = TextChatService.TextChannels:FindFirstChild("RBXGeneral")
-            if channel then channel:SendAsync("ZANE MUSIC HUB Loaded") end
+            if channel then channel:SendAsync("EMILY MUSIC HUB Loaded") end
         else
             local sayEvent = ReplicatedStorage:FindFirstChild("DefaultChatSystemChatEvents")
             if sayEvent and sayEvent:FindFirstChild("SayMessageRequest") then
@@ -571,7 +571,7 @@ local function buildScriptUI(page)
     scriptBtn.Size = UDim2.new(1,0,0,28)
     scriptBtn.Position = UDim2.new(0,0,0,10)
     scriptBtn.BackgroundColor3 = Color3.fromRGB(255,0,0)
-    scriptBtn.Text = "Zane Emote GUI"
+    scriptBtn.Text = "Emily Emote GUI"
     scriptBtn.TextColor3 = Color3.new(1,1,1)
     scriptBtn.Font = Enum.Font.GothamBold
     scriptBtn.TextSize = 11
@@ -606,7 +606,7 @@ local function buildUpdateUI(page)
     text.Text = [[
 - Added Volume Multiplier adjustor box (1-15x)
 - Fixed the Saved Tab list item deletion bug
-- Rebranded to ZANE MUSIC HUB
+- Rebranded to ZANE MUSIC HUB LEAKED BY EMILY
 - Updated color theme to Red
 - Removed old credits, added CTX_ZANE[ahmed_noobda7]
 - Cleaner overall design]]
@@ -646,4 +646,4 @@ end
 
 buildCreditsUI(CreditsPage)
 
-print("ZANE MUSIC HUB loaded - Rebranded by CTX_ZANE[ahmed_noobda7]")
+print("ZANE MUSIC HUB LEAKED BY EMILY loaded - Rebranded by FC_Emily [ellyella3]")
